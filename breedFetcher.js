@@ -22,7 +22,7 @@ const breedFetcher = function() {
     if (data.length === 0) {
       console.log(`${breedName} breed does not exist`);
     } else {
-      console.log(`${breedName}: ${dataDescription}`);
+      console.log(`Description: ${dataDescription}`);
     }
   });
 };
